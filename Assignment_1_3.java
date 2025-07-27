@@ -10,7 +10,7 @@ public class Assignment_1_3
         int num = sc.nextInt();
         a1.table(num);
 
-        System.out.print("Enter a nummber For fibonacci series :- ");
+        System.out.print("Enter a number For fibonacci series :- ");
         int num1 = sc.nextInt();
         a1.fibonacci(num1);
 
@@ -54,12 +54,12 @@ public class Assignment_1_3
         int sum = 0;
         int count = String.valueOf(num2).length();
         int num = num2;
-        while(num>0) 
+        do
         {
             int digit = num % 10;
             sum += Math.pow(digit,count); 
             num /= 10; 
-        }
+        }while(num>0);
         return (sum == original);
     }
 }
