@@ -1,4 +1,4 @@
-# Java_Assignment_1# Basic Java Assignment
+# Java Assignment
 
 ## 1. Project Overview
 
